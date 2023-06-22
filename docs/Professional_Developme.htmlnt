@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sohail Sayeed</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+      padding: 5px;
+    }
+
+    nav ul li a:hover {
+      background-color: #333;
+      color: #fff;
+    }
+
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Professional Development</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="Professional_Experience.html">Professional Experience</a></li>
+      <li><a href="Professional_Development.html">Professional Development</a></li>
+      <li><a href="Volunteering.html">Volunteering</a></li>
+      <li><a href="Hobbies.html">Hobbies</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Welcome to Sohail Sayeed's Website</h2>
+    <p>Click on the tabs above to navigate through different pages.</p>
+  </main>
+</body>
+</html>
