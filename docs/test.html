@@ -25,9 +25,19 @@
 
             <!-- Add more images as needed -->
         </div>
-        
-        <script src="../js/script.js"></script> <!-- Link to JavaScript file -->
-    
+        <!--
+        <script src="../js/script.js"></script> 
+        -->
+        <script>
+          const imageContainer = document.querySelector(".image-container");
+
+          function scrollImages() {
+            imageContainer.scrollLeft += 200; // Change the scroll speed by adjusting the value (larger = faster)
+          }
+
+          setInterval(scrollImages, 50); // Adjust the interval (milliseconds) for smoother or faster scrolling
+        </script>
+
 </body>
 
   <!-- Add content for other pages -->
