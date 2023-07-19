@@ -1,6 +1,6 @@
 // script.js
 
-const imageContainer = document.querySelector('.image-container');
+const imageContainer = document.querySelector(".image-container");
 
 function scrollImages() {
     imageContainer.scrollLeft += 200; // Change the scroll speed by adjusting the value (larger = faster)
