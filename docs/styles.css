@@ -1,4 +1,4 @@
-/*
+
 
 .gallery-container {
     width: 100%;
@@ -11,8 +11,7 @@
 
 .image-gallery img {
     display: inline-block;
-    height: 100px; /* Adjust the height to your preference 
-    margin: 5px; /* Add some spacing between images 
+    height: 100px; /* Adjust the height to your preference */
+    margin: 5px; /* Add some spacing between images */
 }
 
-*/
