@@ -1,3 +1,4 @@
+
 const gallery = document.querySelector('.image-gallery');
 
 function scrollGallery() {
