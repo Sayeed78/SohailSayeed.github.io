@@ -1,4 +1,4 @@
-// Button
+
 
 function printHello() {
     alert('Hello Akari')
