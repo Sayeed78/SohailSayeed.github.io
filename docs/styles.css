@@ -1,5 +1,6 @@
 .image-container {
-    white-space: nowrap;
+    width: 50%;
+    overflow: hidden;
 }
 
 .image-container img {
