@@ -9,6 +9,6 @@
 
 .image-gallery img {
     display: inline-block;
-    height: 300px; /* Adjust the height to your preference */
+    height: 100px; /* Adjust the height to your preference */
     margin: 5px; /* Add some spacing between images */
 }
