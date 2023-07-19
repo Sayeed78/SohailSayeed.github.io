@@ -1,7 +1,7 @@
 .image-container {
     width: 50%;
     height: 50%;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .image-container img {
