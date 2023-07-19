@@ -1,13 +1,10 @@
-.gallery-container {
-    width: 100%;
-    overflow: hidden;
-}
 
-.image-gallery {
+
+.image-container {
     white-space: nowrap;
 }
 
-.image-gallery img {
+.image-container img {
     display: inline-block;
     height: 100px; /* Adjust the height to your preference */
     margin: 5px; /* Add some spacing between images */
