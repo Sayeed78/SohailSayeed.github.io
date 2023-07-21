@@ -1,10 +1,10 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 20;
+    padding: 20;
 }
 
 .carousel-container {
-    width: 100%;
+    width: 150%;
     overflow: hidden;
 }
 
@@ -14,6 +14,7 @@ body {
 }
 
 .carousel-slide img {
-    width: 100%;
+    width: 75%;
+    height: auto;
     /* Optional: If you want the images to maintain aspect ratio, use height: auto; */
 }
