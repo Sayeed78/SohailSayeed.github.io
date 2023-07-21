@@ -1,11 +1,19 @@
-.image-container {
-    width: 50%;
-    height: 25%;
-    overflow: scroll;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.image-container img {
-    display: inline-block;
-    height: 100px; /* Adjust the height to your preference */
-    margin: 5px; /* Add some spacing between images */
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 100%;
+    /* Optional: If you want the images to maintain aspect ratio, use height: auto; */
 }

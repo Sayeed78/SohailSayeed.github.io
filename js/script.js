@@ -1,30 +1,27 @@
 // script.js
 
-function printHello() {
-    alert('Hello Akari')
-}
+document.addEventListener("DOMContentLoaded", function () {
+  const slideContainer = document.querySelector(".carousel-slide");
+  const slides = slideContainer.children;
+  const totalSlides = slides.length;
+  let slideWidth = slides[0].getBoundingClientRect().width;
+  let currentIndex = 0;
 
-const imageContainer = document.querySelector(".image-container");
-
-function scrollImages() {
-    imageContainer.scrollLeft += 200; // Change the scroll speed by adjusting the value (larger = faster)
-}
-
-setInterval(scrollImages, 50); // Adjust the interval (milliseconds) for smoother or faster scrolling
-
-
-// Get references to the button and container
-const toggleButton = document.getElementById('Show Images');
-const myContainer = document.getElementById('.image-container');
-
-// Add a click event listener to the button
-toggleButton.addEventListener('click', function () {
-  // Toggle the display property of the container between 'none' and 'block'
-  if (myContainer.style.display === 'none') {
-    myContainer.style.display = 'block';
-    toggleButton.textContent = 'Hide Container';
-  } else {
-    myContainer.style.display = 'none';
-    toggleButton.textContent = 'Show Container';
+  // Function to move the carousel to the given index
+  function goToSlide(index) {
+      slideContainer.style.transform = `translateX(-${index * slideWidth}px)`;
+      currentIndex = index;
   }
+
+  // Function to show the next slide
+  function nextSlide() {
+      if (currentIndex < totalSlides - 1) {
+          goToSlide(currentIndex + 1);
+      } else {
+          goToSlide(0); // Go back to the first slide if at the end
+      }
+  }
+
+  // Automatically move to the next slide every few seconds
+  setInterval(nextSlide, 3000); // Change slide every 3 seconds (adjust as needed)
 });
